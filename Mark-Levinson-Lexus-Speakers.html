@@ -35,14 +35,21 @@
     #content-main li {
         padding-top: .6em;
     }
-
-    .contentWrapper {
-        padding-bottom: 0 !important;
+    .text-light {
+        color: #fff;
     }
 
+    .bg-dark {
+        background-color: #282828;
+    }
 
-    footer {
-        margin-top: 0 !important;
+    .margin-vert-1x {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .pad-vert-2x {
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .speakerCard {
@@ -68,17 +75,6 @@
         color: #fff;
         border: 5px solid #fff;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    }
-
-    .flex-container {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-    }
-
-    .flex-container .flex-item-1,
-    .flex-container .flex-item-2 {
-        width: 50%;
     }
 
     @media (min-width: 992px) {
@@ -107,11 +103,6 @@
             height: 455px;
         }
 
-        .flex-container .flex-item-1,
-        .flex-container .flex-item-2 {
-            width: 100%;
-        }
-
         .well {
             min-height: 460px;
         }
@@ -120,7 +111,7 @@
 </head>
 
 <body>
-    <div id="heroSection" class="img-background img-cover bg-dark border-x text-light" role="img" aria-label="LEXUS VS MERCEDES-BENZ">
+    <div id="heroSection" class="img-background img-cover border-x text-light" role="img" aria-label="LEXUS VS MERCEDES-BENZ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -195,21 +186,6 @@
                         <p class="h4"><strong>A SUSTAINABLE SYMPHONY</strong></p>
                         <p>In coordination with Lexus sustainability standard, Mark Levinson speakers engineered with GreenEdge™ technology provide double the performance at half the energy consumption all while using eco-friendly materials.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="contentSection4">
-        <div class="flex-container bg-dark">
-            <div class="flex-item flex-item-1">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o7GL0xiZF-k?rel=0&wmode=transparent" frameborder="0"></iframe>
-                </div>
-            </div>
-            <div class="flex-item flex-item-2 ">
-                <div class="pad-2x">
-                    <h3><strong>MARK LEVINSON VIDEO</strong></h3>
-                    <p class="larger">Lexus of Akron-Canton welcomes you to come experience the exceptional Mark Levinson audio systems offered on most Lexus models.</p>
                 </div>
             </div>
         </div>
